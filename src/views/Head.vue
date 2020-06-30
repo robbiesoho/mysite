@@ -1,7 +1,21 @@
 <template>
   <div class="container">
     <!-- Landing area -->
+    <div id="landing-main">
+      <img
+        src="../assets/images/rob on la malinche.jpg"
+        alt="avatar"
+        class="avatar"
+      />
+      <div id="main-name">Robert J Porto</div>
+      <div id="main-details">
+        <div class="main-detail">Full Stack</div>
+        <div class="main-detail">Educator</div>
+        <div class="main-detail">Artist</div>
+      </div>
 
+      <div id="main-quote">"To learn and create interesting things"</div>
+    </div>
     <!-- work -->
     <div class="work">
       <div class="work-card">
@@ -172,16 +186,38 @@ export default {};
 }
 
 .avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  right: 0;
+  /* margin: 5px; */
   width: 200px;
   height: auto;
   border-radius: 70%;
-  background-color: palevioletred;
-
+  border: 1px solid black;
   object-fit: cover;
   object-position: 50% 50%;
+}
+
+#main-name {
+  margin-top: 4%;
+  font-size: 2.5em;
+  margin-left: 3vw;
+  padding-bottom: 10px;
+}
+
+.main-detail {
+  font-size: 1.5em;
+  margin-left: 10vw;
+  padding: 15px;
+}
+.main-detail:before {
+  content: "✓";
+}
+
+#main-quote {
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
 }
 
 .card-pic {

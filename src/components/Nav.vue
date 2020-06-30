@@ -1,25 +1,17 @@
 <template>
   <div class="container">
-    <!-- Landing area -->
     <div class="landing-head">
       <h1>RP | Dev</h1>
       <Hamburger />
-    </div>
-
-    <div id="landing-main">
-      <div id="main-name">Robert J Porto</div>
-      <div id="main-details">
-        <div class="main-detail">Full Stack</div>
-        <div class="main-detail">Educator</div>
-        <div class="main-detail">Artist</div>
-      </div>
-
-      <img
-        src="../assets/images/rob on la malinche.jpg"
-        alt="avatar"
-        class="avatar"
-      />
-      <div class="main-quote">"To learn and make interesting things"</div>
+      <transition name="slide">
+        <div class="landing-nav" v-if="isPanelOpen">
+          <ul id="navbar-menu">
+            <li>Work</li>
+            <li>Resume</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -35,9 +27,7 @@ export default {
   },
 
   methods: {
-    closeSidebarPanel() {
-      closeSidebarPanel: mutations.toggleNav;
-    },
+    closeNav: mutations.toggleNav,
   },
   computed: {
     isPanelOpen() {
@@ -50,6 +40,41 @@ export default {
 <style>
 .landing-head h1 {
   font-size: 5rem;
+}
+
+.landing-head {
+  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.2s ease;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: translateX(100%);
+  transition: all 150ms ease-in 0s;
+}
+
+.landing-nav li {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  background-color: black;
+  border-bottom: solid white 2px;
+}
+
+.landing-nav li:hover {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  background-color: white;
+  border: solid black 2px;
 }
 
 .avatar {

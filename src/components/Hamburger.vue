@@ -1,5 +1,5 @@
 <template>
-  <div class="landing-nav">
+  <div class="container">
     <div
       id="toggle-nav"
       :class="{ active: isBurgerActive }"
@@ -9,12 +9,6 @@
       <div></div>
       <div></div>
     </div>
-
-    <ul id="navbar-menu">
-      <li>Work</li>
-      <li>Resume</li>
-      <li>Contact</li>
-    </ul>
   </div>
 </template>
 
@@ -42,26 +36,6 @@ export default {
 
 .hidden {
   visibility: hidden;
-}
-
-.landing-nav li {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  background-color: black;
-  border-bottom: solid white 2px;
-}
-
-.landing-nav li:hover {
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  background-color: white;
-  border: solid black 2px;
 }
 
 #toggle-nav {
