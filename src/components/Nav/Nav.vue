@@ -6,8 +6,9 @@
       <transition name="slide">
         <div class="landing-nav" v-if="isPanelOpen">
           <ul id="navbar-menu">
-            <li>Work</li>
             <li>Resume</li>
+            <li>Work</li>
+            <li>Tech</li>
             <li>Contact</li>
           </ul>
         </div>
@@ -87,15 +88,5 @@ export default {
   background-color: palevioletred;
   object-fit: cover;
   object-position: 50% 50%;
-}
-
-.card-pic {
-  width: 50px;
-  height: auto;
-}
-
-#tech-card-thumbnail {
-  width: 25px;
-  height: auto;
 }
 </style>

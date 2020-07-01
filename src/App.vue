@@ -2,16 +2,22 @@
   <div id="app">
     <Nav></Nav>
     <router-view />
+    <Work></Work>
+    <Tech></Tech>
   </div>
 </template>
 
 <script>
-import Nav from "@/components/Nav";
+import Nav from "@/components/Nav/Nav";
+import Work from "@/components/Work";
+import Tech from "@/components/Tech";
 
 export default {
   name: "app",
   components: {
     Nav: Nav,
+    Work: Work,
+    Tech: Tech,
   },
 };
 </script>
@@ -28,13 +34,10 @@ body {
   line-height: 1.4;
 }
 
-.avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  height: 500px;
-  border-radius: 70%;
-  background-color: palevioletred;
+h1 {
+  margin-top: 4%;
+  font-size: 2.5em;
+  margin-left: 3vw;
+  padding-bottom: 10px;
 }
 </style>
