@@ -1,12 +1,15 @@
 <template>
   <div class="container">
     <div class="about-me">
-      <h1 id="about-me-title">About Me</h1>
-      <div class="about-me-text">
+      <h1>About Me</h1>
+      <div id="about-me-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aut
         harum incidunt quis maxime soluta ducimus et. Reprehenderit esse
         possimus quam saepe quisquam ducimus corporis quae, est asperiores
-        dolores dignissimos.
+        dolores dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Dolore aut harum incidunt quis maxime soluta ducimus et.
+        Reprehenderit esse possimus quam saepe quisquam ducimus corporis quae,
+        est asperiores dolores dignissimos.
       </div>
     </div>
   </div>
@@ -18,4 +21,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#about-me-text {
+  padding: 0 15px 15px 15px;
+  font-size: 1.6em;
+}
+</style>

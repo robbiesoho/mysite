@@ -58,9 +58,6 @@ export default {
 </script>
 
 <style>
-.media {
-  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
-}
 .media li {
   list-style: none;
 }

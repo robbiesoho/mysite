@@ -93,8 +93,4 @@ export default {
   padding: 10px;
   margin: 1vw 11vw;
 }
-
-.work {
-  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
-}
 </style>

@@ -49,4 +49,8 @@ h1 {
   margin-left: 3vw;
   padding-bottom: 10px;
 }
+
+.container {
+  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
+}
 </style>

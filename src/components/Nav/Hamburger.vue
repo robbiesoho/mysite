@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="ham-container">
     <div
       id="toggle-nav"
       :class="{ active: isBurgerActive }"

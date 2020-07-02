@@ -44,9 +44,9 @@ export default {
   font-size: 5rem;
 }
 
-.landing-head {
+/* .landing-head {
   border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
-}
+} */
 
 .slide-enter-active,
 .slide-leave-active {

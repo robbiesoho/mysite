@@ -84,6 +84,5 @@ s #landing-nav ul {
   padding: 20px;
   font-size: 1.75em;
   text-align: center;
-  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
 }
 </style>

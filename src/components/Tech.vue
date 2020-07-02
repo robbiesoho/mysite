@@ -114,7 +114,7 @@ export default {
           ],
         },
         {
-          name: "VControl",
+          name: "Version Control",
           image: "versioncontrol.jpg",
           details: [
             {
@@ -130,12 +130,9 @@ export default {
 </script>
 
 <style>
-.technologies {
-  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
-}
-.technologies li {
+/* .technologies li {
   list-style: none;
-}
+} */
 
 .tech-cards {
   display: flex;
@@ -155,7 +152,6 @@ export default {
   font-size: 2em;
   padding: 10px;
   display: inline-block;
-  /* vertical-align: baseline; */
 }
 
 .tech-card-title-image {
