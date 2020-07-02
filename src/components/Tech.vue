@@ -2,35 +2,30 @@
   <div class="container">
     <div class="technologies">
       <h1>Technologies</h1>
-      <ul>
+      <ul class="tech-cards">
         <li v-for="(tech, id) in technologies" :key="id">
           <div class="tech-card">
             <div class="tech-card-title">{{ tech.name }}</div>
+            <img
+              :src="require(`@/assets/images/techimages/${tech.image}`)"
+              alt=""
+              class="tech-card-title-image"
+            />
             <div class="tech-card-details">
               <ul>
                 <li v-for="(detail, id) in tech.details" :key="id">
                   <div class="tech-card-detail">{{ detail.name }}</div>
+                  <img
+                    :src="require(`@/assets/images/techimages/${detail.image}`)"
+                    alt=""
+                    class="tech-card-thumbnail"
+                  />
                 </li>
               </ul>
             </div>
           </div>
         </li>
       </ul>
-      <!-- <div class="tech-card">
-        <div class="tech-card-title">Javascript</div>
-        <div class="tech-card-detail">React</div>
-        <img
-          src="../assets/images/rob on la malinche.jpg"
-          alt=""
-          id="tech-card-thumbnail"
-        />
-        <div class="tech-card-detail">Vue.js</div>
-        <img
-          src="../assets/images/rob on la malinche.jpg"
-          alt=""
-          id="tech-card-thumbnail"
-        />
-      </div> -->
     </div>
   </div>
 </template>
@@ -42,87 +37,89 @@ export default {
       technologies: [
         {
           name: "JavaScript",
+          image: "javascript.png",
           details: [
             {
               name: "Node.js",
-              image: "",
+              image: "nodejs.png",
             },
             {
               name: "React",
-              image: "",
+              image: "react.png",
             },
             {
               name: "Vue.js",
-              image: "",
+              image: "vue.png",
             },
             {
               name: "Express.js",
-              image: "",
+              image: "express.png",
             },
           ],
         },
         {
           name: "Ruby",
+          image: "ruby.png",
           details: [
             {
               name: "Ruby On Rails",
-              image: "",
+              image: "rails.png",
             },
             {
               name: "RSpec",
-              image: "",
+              image: "rspec.png",
             },
           ],
         },
         {
           name: "HTML/CSS",
+          image: "htmlcss.png",
           details: [
             {
               name: "Bootstrap",
-              image: "",
+              image: "bootstrap.png",
             },
           ],
         },
         {
           name: "Severs",
+          image: "server.png",
           details: [
             {
               name: "Heroku",
-              image: "",
+              image: "heroku.png",
             },
             {
               name: "Amazon S3",
-              image: "",
+              image: "amazons3.png",
             },
           ],
         },
         {
           name: "Database",
+          image: "database.jpg",
           details: [
             {
               name: "PostgresSQL",
-              image: "",
+              image: "postgres.png",
             },
             {
               name: "MySQL",
-              image: "",
+              image: "mysql.png",
             },
             {
               name: "SQLlite",
-              image: "",
-            },
-            {
-              name: "MongoDB",
-              image: "",
+              image: "sqlite.png",
             },
           ],
         },
         {
-          name: "Version Control",
+          name: "VControl",
+          image: "versioncontrol.jpg",
           details: [
             {
               name: "Git",
-              image: "",
+              image: "git.png",
             },
           ],
         },
@@ -133,20 +130,53 @@ export default {
 </script>
 
 <style>
-.tech-card {
+.technologies {
+  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
+}
+.technologies li {
+  list-style: none;
+}
+
+.tech-cards {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tech-cards li {
+  flex-basis: 100%;
+}
+
+.tech-card {
+  padding: 2em;
 }
 
 .tech-card-title {
-  font-size: 3vh;
+  font-size: 2em;
+  padding: 10px;
+  display: inline-block;
+  /* vertical-align: baseline; */
 }
 
-.tech-card-details {
-  text-align: center;
-}
-
-#tech-card-thumbnail {
-  width: 25px;
+.tech-card-title-image {
+  width: 15%;
   height: auto;
+}
+.tech-card-details li {
+  display: flex;
+}
+
+.tech-card-detail {
+  padding: 10px;
+  margin-left: 3vw;
+  font-size: 2em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tech-card-thumbnail {
+  width: 20%;
+  height: 20%;
+  margin-left: auto;
 }
 </style>

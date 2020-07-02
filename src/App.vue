@@ -4,6 +4,9 @@
     <router-view />
     <Work></Work>
     <Tech></Tech>
+    <Media></Media>
+    <About></About>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -11,6 +14,9 @@
 import Nav from "@/components/Nav/Nav";
 import Work from "@/components/Work";
 import Tech from "@/components/Tech";
+import Media from "@/components/Media";
+import About from "@/components/About";
+import Footer from "@/components/Footer";
 
 export default {
   name: "app",
@@ -18,6 +24,9 @@ export default {
     Nav: Nav,
     Work: Work,
     Tech: Tech,
+    Media: Media,
+    About: About,
+    Footer: Footer,
   },
 };
 </script>

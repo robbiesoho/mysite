@@ -43,16 +43,7 @@ export default {
           url: "http://www.fanfactory.xyz/",
           github: "https://github.com/robbiesoho/fanfactory",
         },
-        {
-          name: "Cuts Again",
-          text:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
 
-          image: "@/assets/images/fanfactory.png",
-          imageName: "fanfactory.png",
-          url: "http://www.youtube.com/",
-          github: "https://github.com/robbiesoho/fanfactory",
-        },
         {
           name: "Media Project",
           text:

@@ -9,7 +9,8 @@
             <li>Resume</li>
             <li>Work</li>
             <li>Tech</li>
-            <li>Contact</li>
+            <li>Social Media</li>
+            <li>About Me</li>
           </ul>
         </div>
       </transition>
