@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="media">
-      <h1>Contact Me On Social Media</h1>
+      <h1>Social Media</h1>
       <ul class="media-cards">
         <li v-for="(media, id) in medias" :key="id">
           <div class="media-card">
@@ -10,6 +10,7 @@
               <img
                 :src="require(`@/assets/images/socialimages/${media.image}`)"
                 alt=""
+                :id="media.name"
                 class="media-card-title-image"
               />
             </a>
@@ -26,28 +27,28 @@ export default {
     return {
       medias: [
         {
-          name: "Linkedin",
+          name: "linkedin",
           image: "linkedin.png",
           url: "https://www.reddit.com",
         },
         {
-          name: "Github",
+          name: "github",
           image: "github.png",
           url: "https://github.com/robbiesoho",
         },
         {
-          name: "StackOF",
+          name: "stackOF",
           image: "stackof.png",
           url: "https://stackoverflow.com/users/10757461/robert",
         },
 
         {
-          name: "Facebook",
+          name: "facebook",
           image: "facebook.png",
           url: "https://www.facebook.com/robert.porto.3998",
         },
         {
-          name: "Twitter",
+          name: "twitter",
           image: "twitter.png",
           url: "https://twitter.com/RPDev10",
         },
@@ -57,7 +58,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.media {
+  padding-bottom: 20px;
+}
 .media li {
   list-style: none;
 }
@@ -79,5 +83,8 @@ export default {
 .media-card-title-image {
   width: 77%;
   height: auto;
+}
+#facebook {
+  width: 50%;
 }
 </style>

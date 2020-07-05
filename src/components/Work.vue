@@ -13,14 +13,16 @@
             <div class="card-text">
               {{ project.text }}
             </div>
-            <a class="work-card-link work-card-link-left" :href="project.url"
-              >Go to site</a
-            >
-            <a
-              class="work-card-link work-card-link-right"
-              :href="project.github"
-              >See the code</a
-            >
+            <div class="work-card-links">
+              <a class="work-card-link work-card-link-left" :href="project.url"
+                >Go to site</a
+              >
+              <a
+                class="work-card-link work-card-link-right"
+                :href="project.github"
+                >See the code</a
+              >
+            </div>
           </div>
         </li>
       </ul>
@@ -28,7 +30,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   data() {
     return {
@@ -86,11 +88,12 @@ export default {
   border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
 }
 
+.work-card-links {
+  display: flex;
+  justify-content: space-around;
+}
 .work-card-link {
   font-size: 2.5vh;
   color: blue;
-  display: inline-block;
-  padding: 10px;
-  margin: 1vw 11vw;
 }
 </style>

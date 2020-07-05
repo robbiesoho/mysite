@@ -100,7 +100,7 @@ export default {
           image: "database.jpg",
           details: [
             {
-              name: "PostgresSQL",
+              name: "Postgres",
               image: "postgres.png",
             },
             {
@@ -114,7 +114,7 @@ export default {
           ],
         },
         {
-          name: "Version Control",
+          name: "VControl",
           image: "versioncontrol.jpg",
           details: [
             {
@@ -130,10 +130,6 @@ export default {
 </script>
 
 <style>
-/* .technologies li {
-  list-style: none;
-} */
-
 .tech-cards {
   display: flex;
   justify-content: space-between;
@@ -146,11 +142,15 @@ export default {
 
 .tech-card {
   padding: 2em;
+  border-right: solid black 1px;
+  /* background-color: #edf7f6;
+  height: 100%; */
+  border: solid rgba(0, 0, 0, 0.1) 1px;
 }
 
 .tech-card-title {
   font-size: 2em;
-  padding: 10px;
+  padding: 15px;
   display: inline-block;
 }
 
@@ -160,10 +160,11 @@ export default {
 }
 .tech-card-details li {
   display: flex;
+  justify-content: center;
 }
 
 .tech-card-detail {
-  padding: 10px;
+  padding: 15px;
   margin-left: 3vw;
   font-size: 2em;
   display: inline-block;
@@ -173,6 +174,6 @@ export default {
 .tech-card-thumbnail {
   width: 20%;
   height: 20%;
-  margin-left: auto;
+  margin-left: auto - 10vw;
 }
 </style>

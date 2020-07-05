@@ -9,8 +9,8 @@
             <li>Resume</li>
             <li>Work</li>
             <li>Tech</li>
-            <li>Social Media</li>
             <li>About Me</li>
+            <li>Social Media</li>
           </ul>
         </div>
       </transition>
@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 import Hamburger from "./Hamburger";
 import { store, mutations } from "@/store.js";
 
@@ -43,10 +43,6 @@ export default {
 .landing-head h1 {
   font-size: 5rem;
 }
-
-/* .landing-head {
-  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
-} */
 
 .slide-enter-active,
 .slide-leave-active {
@@ -77,17 +73,5 @@ export default {
   display: block;
   background-color: white;
   border: solid black 2px;
-}
-
-.avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: auto;
-  border-radius: 70%;
-  background-color: palevioletred;
-  object-fit: cover;
-  object-position: 50% 50%;
 }
 </style>

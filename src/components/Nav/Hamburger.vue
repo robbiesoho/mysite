@@ -29,11 +29,7 @@ export default {
 };
 </script>
 
-<style>
-/* #navbar-menu {
-  display: none;
-} */
-
+<style scoped>
 .hidden {
   visibility: hidden;
 }

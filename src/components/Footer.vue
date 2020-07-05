@@ -20,10 +20,15 @@ export default {
   color: white;
   background-color: black;
   display: flex;
+  height: 40px;
+  line-height: 40px;
+  font-size: 2em;
 }
 
 #foot-link {
   color: white;
   margin-left: auto;
+  font-size: 0.6em;
+  margin-right: 20px;
 }
 </style>
