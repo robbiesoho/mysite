@@ -143,9 +143,10 @@ export default {
 .tech-card {
   padding: 2em;
   border-right: solid black 1px;
-  /* background-color: #edf7f6;
-  height: 100%; */
+  background-color: #edf7f6;
+
   border: solid rgba(0, 0, 0, 0.1) 1px;
+  height: 100%;
 }
 
 .tech-card-title {
@@ -175,5 +176,11 @@ export default {
   width: 20%;
   height: 20%;
   margin-left: auto - 10vw;
+}
+
+@media (min-width: 900px) {
+  .tech-cards li {
+    flex-basis: 33%;
+  }
 }
 </style>

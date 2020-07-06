@@ -2,12 +2,12 @@
   <div class="container">
     <div class="work">
       <h1>Work</h1>
-      <ul>
+      <ul class="work-cards">
         <li v-for="(project, id) in projects" :key="id">
           <div class="work-card">
-            <div class="card-title">{{ project.name }}</div>
+            <div class="card-title">{{ project.name }} {{ project.id }}</div>
             <img
-              :src="require(`@/assets/images/${project.imageName}`)"
+              :src="require(`@/assets/images/workphotos/${project.imageName}`)"
               class="card-pic"
             />
             <div class="card-text">
@@ -40,7 +40,6 @@ export default {
           text:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
 
-          image: "@/assets/images/fanfactory.png",
           imageName: "fanfactory.png",
           url: "http://www.fanfactory.xyz/",
           github: "https://github.com/robbiesoho/fanfactory",
@@ -51,7 +50,24 @@ export default {
           text:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
 
-          image: "@/assets/images/fanfactory.png",
+          imageName: "fanfactory.png",
+          url: "https://www.nytimes.com/",
+          github: "https://github.com/robbiesoho/fanfactory",
+        },
+        {
+          name: "Project 3",
+          text:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
+
+          imageName: "fanfactory.png",
+          url: "https://www.nytimes.com/",
+          github: "https://github.com/robbiesoho/fanfactory",
+        },
+        {
+          name: "Project 4",
+          text:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
+
           imageName: "fanfactory.png",
           url: "https://www.nytimes.com/",
           github: "https://github.com/robbiesoho/fanfactory",
@@ -84,16 +100,34 @@ export default {
 }
 
 .work-card {
+  background-color: #edf7f6;
   padding: 25px 0;
-  border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
+  /* border-bottom: solid rgba(0, 0, 0, 0.1) 1px; */
+  border: solid rgba(0, 0, 0, 0.1) 1px;
+  height: 100%;
 }
 
 .work-card-links {
   display: flex;
   justify-content: space-around;
 }
+
 .work-card-link {
   font-size: 2.5vh;
   color: blue;
+}
+
+.work-card-link:hover {
+  color: purple;
+}
+
+@media (min-width: 900px) {
+  .work-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .work-cards li {
+    flex-basis: 50%;
+  }
 }
 </style>

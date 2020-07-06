@@ -3,6 +3,11 @@
     <div class="about-me">
       <h1>About Me</h1>
       <div id="about-me-text">
+        <img
+          id="robguitar"
+          src="@/assets/images/robphotos/robguitar.jpg"
+          class="card-pic"
+        />
         <p>
           I am self-taught, full stack web developer from New Haven, CT. I have
           experience working with frameworks such as Ruby On Rails, Express.js
@@ -32,5 +37,15 @@ export default {
 #about-me-text {
   padding: 0 15px 15px 15px;
   font-size: 1.6em;
+}
+
+#robguitar {
+  border-radius: 50%;
+
+  float: right;
+
+  padding: 10px;
+
+  max-width: 150px;
 }
 </style>

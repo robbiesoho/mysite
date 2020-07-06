@@ -30,7 +30,7 @@ export default {
   /* background: black;
   color: white; */
   border-radius: 20%;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 10px;
 }
 

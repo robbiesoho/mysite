@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     isMobile: function() {
-      return window.innerWidth <= 600;
+      return window.innerWidth <= 900;
     },
   },
 };
@@ -54,7 +54,8 @@ body {
 }
 
 h1 {
-  margin-top: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-size: 2.5em;
   margin-left: 3vw;
   padding-bottom: 10px;

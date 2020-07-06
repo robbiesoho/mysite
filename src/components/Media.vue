@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .media {
   padding-bottom: 20px;
 }
@@ -78,6 +78,7 @@ export default {
 }
 
 .media-card {
+  max-width: 120px;
 }
 
 .media-card-title-image {

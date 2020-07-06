@@ -9,14 +9,14 @@
       </div>
 
       <img
-        src="../assets/images/rob on la malinche.jpg"
+        src="../assets/images/robphotos/rob on la malinche.jpg"
         alt="avatar"
         class="avatar"
       />
       <div id="landing-words">
         <h1 id="main-name">Robert J Porto</h1>
         <div id="main-details">
-          <div class="main-detail">Full Stack</div>
+          <div class="main-detail">Full Stack Web Developer</div>
           <div class="main-detail">Educator</div>
           <div class="main-detail">Artist</div>
         </div>
@@ -35,18 +35,22 @@ export default {};
 </script>
 
 <style>
-.landing-container {
-  /* background-color: #edf7f6;
-  height: 100%; */
-}
+/* .landing-container {
+  background-color: #edf7f6;
+  height: 100%;
+} */
+
 #landing-main {
-  margin: 0;
   padding: 0;
+  background-color: #dfcfbe;
+  height: 100%;
 }
 .avatar {
   position: absolute;
+  margin-top: 4%;
   right: 0;
   width: 200px;
+
   height: auto;
   border-radius: 70%;
   border: 1px solid black;
@@ -54,8 +58,13 @@ export default {};
   object-position: 50% 50%;
 }
 
+#landing-words {
+  padding-top: 4%;
+}
+
 #main-name {
-  margin-top: 4%;
+  margin-top: 0;
+
   font-size: 2.5em;
   margin-left: 3vw;
   padding-bottom: 10px;
@@ -71,8 +80,8 @@ export default {};
 }
 
 #main-quote {
-  padding: 20px;
-  font-size: 1.75em;
+  margin-top: 8%;
+  font-size: 1.25em;
   text-align: center;
 }
 
@@ -129,7 +138,7 @@ export default {};
   z-index: -1;
 } */
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   #landing-main {
     background-color: #edf7f6;
     background-color: #dfcfbe;
@@ -144,24 +153,26 @@ export default {};
     /* border-radius: 50%;
     border: 2px solid #23313a;
     width: 300px;
-    
+
 
     display: block;
     left: 60%;
      */
-    width: 300px;
+    width: 350px;
     margin: 2% 10%;
     position: relative;
     order: 2;
   }
 
   #landing-words {
+    padding-top: 0;
     display: flex;
     flex-direction: column;
   }
 
   #main-name {
     font-size: 4em;
+    /* font-size: 7vw; */
   }
 
   #main-details {
