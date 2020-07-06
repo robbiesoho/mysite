@@ -6,11 +6,15 @@
       <transition name="slide">
         <div class="landing-nav" v-if="isPanelOpen">
           <ul id="navbar-menu">
-            <li>Resume</li>
-            <li>Work</li>
-            <li>Tech</li>
-            <li>About Me</li>
-            <li>Social Media</li>
+            <a class="nav-item-mob" href="/resume.pdf" target="_blank"
+              >Resume</a
+            >
+            <router-link class="nav-item-mob" to="#work">Work</router-link>
+            <router-link class="nav-item-mob" to="#tech">Tech</router-link>
+            <router-link class="nav-item-mob" to="#about">About Me</router-link>
+            <router-link class="nav-item-mob" to="#media"
+              >Social Media</router-link
+            >
           </ul>
         </div>
       </transition>
@@ -55,7 +59,7 @@ export default {
   transition: all 150ms ease-in 0s;
 }
 
-.landing-nav li {
+.nav-item-mob {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -65,7 +69,7 @@ export default {
   border-bottom: solid white 2px;
 }
 
-.landing-nav li:hover {
+.nav-item-mob:hover {
   color: black;
   padding: 14px 16px;
   text-decoration: none;

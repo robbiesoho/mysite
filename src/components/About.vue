@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="about-me">
+    <div id="about">
       <h1>About Me</h1>
       <div id="about-me-text">
         <img

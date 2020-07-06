@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="work">
+    <div id="work">
       <h1>Work</h1>
       <ul class="work-cards">
         <li v-for="(project, id) in projects" :key="id">
@@ -125,9 +125,10 @@ export default {
   .work-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   .work-cards li {
-    flex-basis: 50%;
+    flex-basis: 49.7%;
   }
 }
 </style>

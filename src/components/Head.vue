@@ -16,7 +16,8 @@
       <div id="landing-words">
         <h1 id="main-name">Robert J Porto</h1>
         <div id="main-details">
-          <div class="main-detail">Full Stack Web Developer</div>
+          <div class="main-detail">Full Stack</div>
+          <div class="main-detail">Web Developer</div>
           <div class="main-detail">Educator</div>
           <div class="main-detail">Artist</div>
         </div>

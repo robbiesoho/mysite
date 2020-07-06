@@ -2,7 +2,7 @@
   <div id="app">
     <MobileNav v-if="isMobile()"></MobileNav>
     <DeskNav v-if="!isMobile()"></DeskNav>
-    <router-view />
+    <Head></Head>
     <Work></Work>
     <Tech></Tech>
     <About></About>
@@ -14,6 +14,7 @@
 <script>
 import MobileNav from "@/components/Nav/MobileNav";
 import DeskNav from "@/components/Nav/DeskNav";
+import Head from "@/components/Head";
 import Work from "@/components/Work";
 import Tech from "@/components/Tech";
 import Media from "@/components/Media";
@@ -25,6 +26,7 @@ export default {
   components: {
     MobileNav: MobileNav,
     DeskNav: DeskNav,
+    Head: Head,
     Work: Work,
     Tech: Tech,
     Media: Media,

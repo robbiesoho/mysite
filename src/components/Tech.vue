@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="technologies">
+    <div id="tech">
       <h1>Technologies</h1>
       <ul class="tech-cards">
         <li v-for="(tech, id) in technologies" :key="id">

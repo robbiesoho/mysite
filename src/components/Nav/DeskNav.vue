@@ -2,11 +2,11 @@
   <div class="container">
     <ul id="navbar-menu">
       <h1>RP | Dev</h1>
-      <li>Resume</li>
-      <li>Work</li>
-      <li>Tech</li>
-      <li>About Me</li>
-      <li>Social Media</li>
+      <a class="nav-item" href="/resume.pdf" target="_blank">Resume</a>
+      <router-link class="nav-item" to="#work">Work</router-link>
+      <router-link class="nav-item" to="#tech">Tech</router-link>
+      <router-link class="nav-item" to="#about">About Me</router-link>
+      <router-link class="nav-item" to="#media">Social Media</router-link>
     </ul>
   </div>
 </template>
@@ -25,7 +25,9 @@ export default {
   /* margin-left: 0; */
 }
 
-#navbar-menu li {
+.nav-item {
+  color: black;
+  text-decoration: none;
   font-size: 1.5rem;
   /* background: black;
   color: white; */
@@ -41,7 +43,7 @@ export default {
   align-items: baseline;
 }
 
-#navbar-menu li:hover {
+.nav-item:hover {
   color: white;
   background-color: black;
   /* background-color: #dfcfbe */

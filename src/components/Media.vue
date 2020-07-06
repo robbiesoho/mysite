@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="media">
+    <div id="media">
       <h1>Social Media</h1>
       <ul class="media-cards">
         <li v-for="(media, id) in medias" :key="id">
@@ -59,10 +59,10 @@ export default {
 </script>
 
 <style>
-.media {
+#media {
   padding-bottom: 20px;
 }
-.media li {
+#media li {
   list-style: none;
 }
 
