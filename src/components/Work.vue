@@ -38,7 +38,7 @@ export default {
         {
           name: "Fan Factory",
           text:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
+            "Fan Factory is an events (concerts, Formula 1) company located in Tlaxcala, Mexico. Admins can log in and manage events, tickets and customers using an easy to use UI (written in ROR). Customers can checkout the very simple customer UI (written in React.js) to check out upcoming and past events.",
 
           imageName: "fanfactory.png",
           url: "http://www.fanfactory.xyz/",

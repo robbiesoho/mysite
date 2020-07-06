@@ -88,4 +88,10 @@ export default {
 #facebook {
   width: 50%;
 }
+
+.media-card-title-image:hover {
+  /* width: 100%;
+  max-width: 170px; */
+  border: 10px solid #dfcfbe;
+}
 </style>

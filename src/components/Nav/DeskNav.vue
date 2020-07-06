@@ -21,7 +21,7 @@ export default {
 #navbar-menu h1 {
   font-size: 5.5rem;
   flex-basis: content;
-  margin-top: 0;
+  margin-top: 10px;
   /* margin-left: 0; */
 }
 

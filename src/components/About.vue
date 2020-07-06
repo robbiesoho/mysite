@@ -20,7 +20,9 @@
         <p>
           I am always looking to improve my skillset. I am self-motivated and
           unquencibly curious. All the projects listed are my own. For more
-          information, feel free to read my resume. Thank you!
+          information, feel free to read my
+          <a href="/resume.pdf" target="_blank" id="resume-link">resume</a>.
+          Thank you!
         </p>
       </div>
     </div>
@@ -34,6 +36,10 @@ export default {
 </script>
 
 <style>
+#about {
+  background-color: #edf7f6;
+  height: 100%;
+}
 #about-me-text {
   padding: 0 15px 15px 15px;
   font-size: 1.6em;
@@ -47,5 +53,9 @@ export default {
   padding: 10px;
 
   max-width: 150px;
+}
+
+#resume-link:hover {
+  color: red;
 }
 </style>
