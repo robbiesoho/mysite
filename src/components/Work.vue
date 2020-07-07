@@ -102,7 +102,6 @@ export default {
 .work-card {
   background-color: #edf7f6;
   padding: 25px 0;
-  /* border-bottom: solid rgba(0, 0, 0, 0.1) 1px; */
   border: solid rgba(0, 0, 0, 0.1) 1px;
   height: 100%;
 }
@@ -110,10 +109,11 @@ export default {
 .work-card-links {
   display: flex;
   justify-content: space-around;
+  padding-top: 50px;
 }
 
 .work-card-link {
-  font-size: 2.5vh;
+  font-size: 1.2em;
   color: blue;
 }
 

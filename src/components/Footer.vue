@@ -31,4 +31,7 @@ export default {
   font-size: 0.6em;
   margin-right: 20px;
 }
+#foot-link:hover {
+  color: grey;
+}
 </style>

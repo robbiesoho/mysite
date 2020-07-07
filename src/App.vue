@@ -6,6 +6,7 @@
     <Work></Work>
     <Tech></Tech>
     <About></About>
+    <Contact></Contact>
     <Media></Media>
     <Footer></Footer>
   </div>
@@ -19,6 +20,7 @@ import Work from "@/components/Work";
 import Tech from "@/components/Tech";
 import Media from "@/components/Media";
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default {
@@ -31,13 +33,14 @@ export default {
     Tech: Tech,
     Media: Media,
     About: About,
+    Contact: Contact,
     // eslint-disable-next-line
     Footer: Footer,
     // eslint-disable-next-line
   },
   methods: {
     isMobile: function() {
-      return window.innerWidth <= 900;
+      return window.innerWidth <= 1000;
     },
   },
 };

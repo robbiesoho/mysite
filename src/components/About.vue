@@ -19,8 +19,14 @@
         <br />
         <p>
           I am always looking to improve my skillset. I am self-motivated and
-          unquencibly curious. All the projects listed are my own. For more
-          information, feel free to read my
+          unquencibly curious. All the projects listed on my
+          <a
+            href="https://github.com/robbiesoho"
+            target="_blank"
+            id="resume-link"
+            >github</a
+          >
+          are my own. For more information, feel free to read my
           <a href="/resume.pdf" target="_blank" id="resume-link">resume</a>.
           Thank you!
         </p>
