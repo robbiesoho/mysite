@@ -19,6 +19,7 @@
                     :src="require(`@/assets/images/techimages/${detail.image}`)"
                     alt=""
                     class="tech-card-thumbnail"
+                    :id="detail.name"
                   />
                 </li>
               </ul>
@@ -90,8 +91,8 @@ export default {
               image: "heroku.png",
             },
             {
-              name: "Amazon S3",
-              image: "amazons3.png",
+              name: "Amazon AWS",
+              image: "aws.png",
             },
           ],
         },
@@ -100,13 +101,14 @@ export default {
           image: "database.jpg",
           details: [
             {
-              name: "Postgres",
-              image: "postgres.png",
+              name: "MongoDB",
+              image: "mongo.jpeg",
             },
             {
-              name: "MySQL",
-              image: "mysql.png",
+              name: "PostgreSQL",
+              image: "postgres.png",
             },
+
             {
               name: "SQLlite",
               image: "sqlite.png",

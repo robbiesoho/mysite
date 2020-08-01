@@ -5,21 +5,27 @@
       <h2 id="display">{{ message }}</h2>
       <form class="contact-form" @submit.prevent="sendEmail">
         <label>Name</label>
-        <input placeholder="Your name.." type="text" name="user_name" />
+        <input
+          placeholder="Your name.."
+          type="text"
+          name="user_name"
+          required
+        />
         <label>Email</label>
-        <input placeholder="Your email.." type="email" name="user_email" />
+        <input
+          placeholder="Your email.."
+          type="email"
+          name="user_email"
+          required
+        />
         <label>Message</label>
         <textarea
           placeholder="Your message.."
           rows="5"
           name="message"
+          required
         ></textarea>
-        <input
-          id="submit-message"
-          type="submit"
-          value="Send"
-          v-on:click="changeMessage()"
-        />
+        <input id="submit-message" type="submit" value="Send" />
       </form>
     </div>
   </div>
@@ -47,6 +53,7 @@ export default {
         .then(
           (result) => {
             console.log("SUCCESS!", result.status, result.text);
+            alert("message sent");
           },
           (error) => {
             console.log("FAILED...", error);
@@ -56,10 +63,6 @@ export default {
       e.target.user_name.value = " ";
       e.target.user_email.value = " ";
       e.target.message.value = " ";
-    },
-
-    changeMessage() {
-      this.message = "Message sent. Thank you for contacting me!";
     },
   },
 };
@@ -79,7 +82,8 @@ export default {
 }
 
 #display {
-  font-size: 2.5em;
+  font-size: 2em;
+  /* padding: 20px 20px 40px 20px; */
 }
 
 .contact-form {

@@ -36,6 +36,15 @@ export default {
     return {
       projects: [
         {
+          name: "City Boyz Media",
+          text:
+            "City Boyz is a media site made from the MERN stack and uses redux for state management. It is deployed on AWS and uses MongoDB Atlas. This was a project for some friends who like to write articles.",
+
+          imageName: "cityboyz.png",
+          url: "http://www.cityboyz.us/",
+          github: "https://github.com/robbiesoho/cityboyz",
+        },
+        {
           name: "Fan Factory",
           text:
             "Fan Factory is an events (concerts, Formula 1) company located in Tlaxcala, Mexico. Admins can log in and manage events, tickets and customers using an easy to use UI (written in ROR). Customers can checkout the very simple customer UI (written in React.js) to check out upcoming and past events.",
@@ -46,31 +55,13 @@ export default {
         },
 
         {
-          name: "Media Project",
+          name: "Not-Facebook",
           text:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
+            "Use your Facebook account and sign into Not-Facebook. You can find your friends, leave them comments and like their comments. The greatest social media platform ever created.",
 
-          imageName: "fanfactory.png",
-          url: "https://www.nytimes.com/",
-          github: "https://github.com/robbiesoho/fanfactory",
-        },
-        {
-          name: "Project 3",
-          text:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
-
-          imageName: "fanfactory.png",
-          url: "https://www.nytimes.com/",
-          github: "https://github.com/robbiesoho/fanfactory",
-        },
-        {
-          name: "Project 4",
-          text:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.t consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elitt consectetur adipisicing elit",
-
-          imageName: "fanfactory.png",
-          url: "https://www.nytimes.com/",
-          github: "https://github.com/robbiesoho/fanfactory",
+          imageName: "notface.png",
+          url: "https://fast-thicket-99631.herokuapp.com/",
+          github: "https://github.com/robbiesoho/Not-Facebook",
         },
       ],
     };
@@ -93,6 +84,7 @@ export default {
 }
 
 .card-text {
+  margin: 20px;
   display: inline-block;
   position: relative;
   text-align: center;
@@ -109,7 +101,7 @@ export default {
 .work-card-links {
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .work-card-link {

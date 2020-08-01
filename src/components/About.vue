@@ -12,9 +12,9 @@
           I am self-taught, full stack web developer from New Haven, CT. I have
           experience working with frameworks such as Ruby On Rails, Express.js
           and Django. I am familiar with front-end framworks React and Vue.js. I
-          have worked with different database technologies such as PostgreSQL,
-          MySQL and SQLite. I have experience with industry tools such as Git,
-          Heroku and AWS.
+          have worked with different database technologies such as MongoDB,
+          PostgreSQL, and SQLite. I have experience with industry tools such as
+          Git, Heroku and AWS.
         </p>
         <br />
         <p>
@@ -28,7 +28,6 @@
           >
           are my own. For more information, feel free to read my
           <a href="/resume.pdf" target="_blank" id="resume-link">resume</a>.
-          Thank you!
         </p>
       </div>
     </div>
