@@ -30,9 +30,6 @@ export default {};
 </script>
 
 <style>
-/* .landing-container {
-  height: vh;
-} */
 #landing-main {
   padding: 0;
   background-color: #dfcfbe;

@@ -2,7 +2,6 @@
   <div id="contact" class="container">
     <h1>Contact me</h1>
     <div id="contact-container">
-      <h2 id="display">{{ message }}</h2>
       <form class="contact-form" @submit.prevent="sendEmail">
         <label>Name</label>
         <input
@@ -34,12 +33,6 @@
 <script scoped>
 import emailjs from "emailjs-com";
 export default {
-  data() {
-    return {
-      message: " ",
-    };
-  },
-
   methods: {
     sendEmail: (e) => {
       emailjs
@@ -84,7 +77,6 @@ export default {
 
 #display {
   font-size: 2em;
-  /* padding: 20px 20px 40px 20px; */
 }
 
 .contact-form {

@@ -47,9 +47,6 @@ export default {
 </script>
 
 <style scoped>
-/* .container {
-  height: 20vh;
-} */
 .landing-head h1 {
   font-size: 5rem;
 }

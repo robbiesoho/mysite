@@ -115,10 +115,6 @@ export default {
   color: purple;
 }
 
-#Express.js:hover {
-  border: 2px black solid;
-}
-
 @media (min-width: 900px) {
   .work-cards {
     display: flex;

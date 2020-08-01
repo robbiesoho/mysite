@@ -43,6 +43,9 @@ export default {
 <style>
 #about {
   background-color: #edf7f6;
+  border: solid rgba(0, 0, 0, 0.1) 1px;
+  margin-top: 10px;
+
   height: 100%;
 }
 #about-me-text {

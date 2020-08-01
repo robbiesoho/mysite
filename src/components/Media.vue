@@ -36,7 +36,7 @@ export default {
           url: "https://github.com/robbiesoho",
         },
         {
-          name: "stackOF",
+          name: "stackof",
           image: "stackof.png",
           url: "https://stackoverflow.com/users/10757461/robert",
         },
@@ -59,6 +59,8 @@ export default {
 
 <style>
 #media {
+  background-color: #edf7f6;
+  border: solid rgba(0, 0, 0, 0.1) 1px;
   padding-bottom: 20px;
 }
 #media li {
@@ -85,8 +87,14 @@ export default {
   width: 77%;
   height: auto;
 }
-#facebook {
+#facebook,
+#stackof,
+#github {
   width: 50%;
+}
+
+#twitter {
+  width: 60%;
 }
 
 .media-card-title-image:hover {
