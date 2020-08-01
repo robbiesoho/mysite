@@ -30,6 +30,9 @@ export default {};
 </script>
 
 <style>
+/* .landing-container {
+  height: vh;
+} */
 #landing-main {
   padding: 0;
   background-color: #dfcfbe;
@@ -72,8 +75,7 @@ export default {};
 
 #main-quote {
   margin-top: 8%;
-  font-size: 3vw;
-  padding: 0 10px 10px 10px;
+  padding: 0 10px 10px 40px;
   font-size: 1.25em;
 }
 

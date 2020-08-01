@@ -47,7 +47,7 @@ export default {
         {
           name: "Fan Factory",
           text:
-            "Fan Factory is an events (concerts, Formula 1) company located in Tlaxcala, Mexico. Admins can log in and manage events, tickets and customers using an easy to use UI (written in ROR). Customers can checkout the very simple customer UI (written in React.js) to check out upcoming and past events.",
+            "Fan Factory is an events (concerts, Formula 1) company located in Tlaxcala, Mexico. Admins can log in and manage events, tickets and customers using an easy to use UI (written in ROR). Customers can checkout the very simple customer UI (written in React.js) to check out upcoming and past events. The backend was made with ROR and PostgreSQL and deployed on heroku.",
 
           imageName: "fanfactory.png",
           url: "http://www.fanfactory.xyz/",
@@ -57,7 +57,7 @@ export default {
         {
           name: "Not-Facebook",
           text:
-            "Use your Facebook account and sign into Not-Facebook. You can find your friends, leave them comments and like their comments. The greatest social media platform ever created.",
+            "Use your Facebook account and sign into Not-Facebook. You can find your friends, leave them comments and like their comments. The greatest social media platform ever created. Made with Ruby on rails, PostgreSQL and deployed on Heroku.",
 
           imageName: "notface.png",
           url: "https://fast-thicket-99631.herokuapp.com/",
@@ -72,7 +72,9 @@ export default {
 <style>
 .card-title {
   text-align: center;
-  font-size: 4vh;
+  font-size: 35px;
+  font-weight: 900;
+  padding-bottom: 15px;
 }
 
 .card-pic {
@@ -111,6 +113,10 @@ export default {
 
 .work-card-link:hover {
   color: purple;
+}
+
+#Express.js:hover {
+  border: 2px black solid;
 }
 
 @media (min-width: 900px) {

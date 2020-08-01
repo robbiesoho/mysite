@@ -25,7 +25,7 @@
   </div>
 </template>
 
-<script scoped>
+<script>
 import Hamburger from "./Hamburger";
 import { store, mutations } from "@/store.js";
 
@@ -46,7 +46,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+/* .container {
+  height: 20vh;
+} */
 .landing-head h1 {
   font-size: 5rem;
 }

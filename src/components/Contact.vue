@@ -53,10 +53,11 @@ export default {
         .then(
           (result) => {
             console.log("SUCCESS!", result.status, result.text);
-            alert("message sent");
+            alert("Messaage sent! Thank you. I'll get back to you ASAP. -Rob");
           },
           (error) => {
             console.log("FAILED...", error);
+            alert("Failed to send message: " + error);
           }
         );
 

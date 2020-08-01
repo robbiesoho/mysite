@@ -19,7 +19,7 @@
                     :src="require(`@/assets/images/techimages/${detail.image}`)"
                     alt=""
                     class="tech-card-thumbnail"
-                    :id="detail.name"
+                    :id="detail.id"
                   />
                 </li>
               </ul>
@@ -43,18 +43,22 @@ export default {
             {
               name: "Node.js",
               image: "nodejs.png",
+              id: "node",
             },
             {
               name: "React",
               image: "react.png",
+              id: "react",
             },
             {
               name: "Vue.js",
               image: "vue.png",
+              id: "vue",
             },
             {
               name: "Express.js",
               image: "express.png",
+              id: "express",
             },
           ],
         },
@@ -65,10 +69,12 @@ export default {
             {
               name: "Ruby On Rails",
               image: "rails.png",
+              id: "rails",
             },
             {
               name: "RSpec",
               image: "rspec.png",
+              id: "rspec",
             },
           ],
         },
@@ -79,6 +85,7 @@ export default {
             {
               name: "Bootstrap",
               image: "bootstrap.png",
+              id: "boot",
             },
           ],
         },
@@ -89,10 +96,12 @@ export default {
             {
               name: "Heroku",
               image: "heroku.png",
+              id: "heroku",
             },
             {
               name: "Amazon AWS",
               image: "aws.png",
+              id: "aws",
             },
           ],
         },
@@ -103,15 +112,18 @@ export default {
             {
               name: "MongoDB",
               image: "mongo.jpeg",
+              id: "mongo",
             },
             {
               name: "PostgreSQL",
               image: "postgres.png",
+              id: "postgres",
             },
 
             {
               name: "SQLlite",
               image: "sqlite.png",
+              id: "sqllite",
             },
           ],
         },
@@ -122,6 +134,7 @@ export default {
             {
               name: "Git",
               image: "git.png",
+              id: "git",
             },
           ],
         },
@@ -169,7 +182,7 @@ export default {
 .tech-card-detail {
   padding: 15px;
   margin-left: 3vw;
-  font-size: 2em;
+  font-size: 1.7em;
   display: inline-block;
   vertical-align: top;
 }
@@ -178,6 +191,11 @@ export default {
   width: 20%;
   height: 20%;
   margin-left: auto - 10vw;
+}
+
+.tech-cards img {
+  align-self: center;
+  width: 56.24px;
 }
 
 @media (min-width: 900px) {

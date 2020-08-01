@@ -1,17 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-// import Head from "../views/Head.vue";
-// import Work from "../components/Work";
 
 Vue.use(VueRouter);
 
-const routes = [
-  // {
-  //   path: "/work",
-  //   name: "Work",
-  //   component: Work,
-  // },
-];
+const routes = [];
 
 const router = new VueRouter({
   mode: "history",

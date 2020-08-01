@@ -5,7 +5,6 @@
       <ul class="media-cards">
         <li v-for="(media, id) in medias" :key="id">
           <div class="media-card">
-            <!-- <div class="media-card-title">{{ media.name }}</div> -->
             <a :href="media.url">
               <img
                 :src="require(`@/assets/images/socialimages/${media.image}`)"
@@ -71,6 +70,7 @@ export default {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  padding-left: 40px;
 }
 
 .media-cards li {
@@ -90,8 +90,6 @@ export default {
 }
 
 .media-card-title-image:hover {
-  /* width: 100%;
-  max-width: 170px; */
   border: 10px solid #dfcfbe;
 }
 </style>
