@@ -166,6 +166,7 @@ export default {
 
 .tech-card-title {
   font-size: 2em;
+
   padding: 15px;
   display: inline-block;
 }

@@ -50,7 +50,8 @@ export default {
 }
 #about-me-text {
   padding: 0 15px 15px 15px;
-  font-size: 1.6em;
+  font-size: 1.3em;
+  text-indent: 5%;
 }
 
 #robguitar {
