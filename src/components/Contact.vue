@@ -109,7 +109,7 @@ export default {
 }
 
 #submit-message {
-  width: 20%;
+  width: 120px;
   background-color: #dfcfbe;
   color: black;
   padding: 14px 20px;

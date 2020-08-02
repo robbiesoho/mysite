@@ -68,8 +68,6 @@ h1 {
 
 .container {
   border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
-  /* background-color: #edf7f6;
-  margin: 0 auto; */
 }
 
 li {

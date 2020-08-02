@@ -22,7 +22,11 @@ export default {
   display: flex;
   height: 40px;
   line-height: 40px;
-  font-size: 2em;
+  font-size: 1.5em;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 #foot-link {

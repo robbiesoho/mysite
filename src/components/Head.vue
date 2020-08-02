@@ -31,22 +31,31 @@ export default {};
 
 <style>
 #landing-main {
+  position: relative;
   padding: 0;
   background-color: #dfcfbe;
-
   height: 100%;
+
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
 }
 .avatar {
   position: absolute;
-  margin-top: 4%;
-  right: 0;
-  width: 200px;
+  top: 15%;
 
+  right: 2.5vw;
+  width: 40vw;
+  max-width: 250px;
   height: auto;
   border-radius: 70%;
   border: 1px solid black;
   object-fit: cover;
   object-position: 50% 50%;
+  grid-area: avatar;
+
+  grid-column: 2;
 }
 
 #landing-words {
@@ -59,12 +68,14 @@ export default {};
   font-size: 2.5em;
   margin-left: 3vw;
   padding-bottom: 10px;
+  grid-area: name;
 }
 
 .main-detail {
   font-size: 1.5em;
-  margin-left: 10vw;
+  margin-left: 2.5vw;
   padding: 15px;
+  grid-area: details;
 }
 .main-detail:before {
   content: "✓";
@@ -74,6 +85,7 @@ export default {};
   margin-top: 8%;
   padding: 0 10px 10px 40px;
   font-size: 1.25em;
+  grid-area: quote;
 }
 
 .background-img-container {

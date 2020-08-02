@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "aws --region us-east-2 --profile robdev s3 sync ./dist s3://rpdevsite --delete"
   },
   "dependencies": {
     "core-js": "^3.6.5",
