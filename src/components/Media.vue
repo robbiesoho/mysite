@@ -28,7 +28,7 @@ export default {
         {
           name: "linkedin",
           image: "linkedin.png",
-          url: "https://www.reddit.com",
+          url: "https://www.linkedin.com/in/robert-j-porto-a1327819a",
         },
         {
           name: "github",
