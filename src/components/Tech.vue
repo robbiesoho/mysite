@@ -94,14 +94,14 @@ export default {
           image: "server.png",
           details: [
             {
-              name: "Heroku",
-              image: "heroku.png",
-              id: "heroku",
-            },
-            {
               name: "Amazon AWS",
               image: "aws.png",
               id: "aws",
+            },
+            {
+              name: "Heroku",
+              image: "heroku.png",
+              id: "heroku",
             },
           ],
         },

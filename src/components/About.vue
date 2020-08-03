@@ -14,12 +14,12 @@
           and Django. I am familiar with front-end framworks React and Vue.js. I
           have worked with different database technologies such as MongoDB,
           PostgreSQL, and SQLite. I have experience with industry tools such as
-          Git, Heroku and AWS.
+          Git, AWS and Heroku.
         </p>
         <br />
         <p>
           I am always looking to improve my skillset. I am self-motivated and
-          unquencibly curious. All the projects listed on my
+          unquenchably curious. All the projects listed on my
           <a
             href="https://github.com/robbiesoho"
             target="_blank"
