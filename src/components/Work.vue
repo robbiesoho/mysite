@@ -115,14 +115,14 @@ export default {
   color: purple;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 750px) {
   .work-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   .work-cards li {
-    flex-basis: 49.7%;
+    flex-basis: 50%;
   }
 }
 </style>

@@ -199,6 +199,11 @@ export default {
   width: 56.24px;
 }
 
+@media (min-width: 600px) {
+  .tech-cards li {
+    flex-basis: 50%;
+  }
+}
 @media (min-width: 900px) {
   .tech-cards li {
     flex-basis: 33%;

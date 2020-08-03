@@ -65,7 +65,7 @@ export default {};
 #main-name {
   margin-top: 0;
 
-  font-size: 2.5em;
+  font-size: 3em;
   margin-left: 3vw;
   padding-bottom: 10px;
   grid-area: name;
@@ -97,7 +97,7 @@ export default {};
   z-index: -1;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   #landing-main {
     background-color: #dfcfbe;
     display: flex;
@@ -119,7 +119,7 @@ export default {};
   }
 
   #main-name {
-    font-size: 4em;
+    font-size: 4.5em;
   }
 
   #main-details {
