@@ -19,31 +19,28 @@ export default {};
 <style scoped>
 #navbar-menu h1 {
   font-size: 5.5rem;
-  flex-basis: content;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .nav-item {
   color: black;
   text-decoration: none;
   font-size: 1.5rem;
-
   border-radius: 20%;
   border: 3px solid black;
   padding: 10px;
 }
 
 #navbar-menu {
-  flex-basis: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: baseline;
 }
 
 .nav-item:hover {
   color: white;
   background-color: black;
-
   cursor: pointer;
 }
 </style>
