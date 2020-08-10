@@ -45,9 +45,11 @@ export default {
   background-color: #edf7f6;
   border: solid rgba(0, 0, 0, 0.1) 1px;
   margin-top: 10px;
-
+  display: flex;
   height: 100%;
+  flex-direction: column;
 }
+
 #about-me-text {
   padding: 0 15px 15px 15px;
   font-size: 1.3em;
@@ -56,11 +58,8 @@ export default {
 
 #robguitar {
   border-radius: 50%;
-
   float: right;
-
   padding: 10px;
-
   max-width: 150px;
 }
 
