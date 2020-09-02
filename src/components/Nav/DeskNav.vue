@@ -2,10 +2,13 @@
   <div class="container">
     <ul id="navbar-menu">
       <h1>RP | Dev</h1>
+      <a class="nav-item" href="http://www.robportoblog.com/" target="_blank"
+        >Blog</a
+      >
       <a class="nav-item" href="/resume.pdf" target="_blank">Resume</a>
       <router-link class="nav-item" to="#work">Work</router-link>
       <router-link class="nav-item" to="#tech">Tech</router-link>
-      <router-link class="nav-item" to="#about">About Me</router-link>
+      <!-- <router-link class="nav-item" to="#about">About Me</router-link> -->
       <router-link class="nav-item" to="#contact">Contact Me</router-link>
       <router-link class="nav-item" to="#media">Social Media</router-link>
     </ul>

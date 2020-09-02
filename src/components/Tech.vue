@@ -90,7 +90,7 @@ export default {
           ],
         },
         {
-          name: "Severs",
+          name: "Server",
           image: "server.png",
           details: [
             {

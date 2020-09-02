@@ -6,12 +6,18 @@
       <transition name="slide">
         <div class="landing-nav" v-if="isPanelOpen">
           <ul id="navbar-menu">
+            <a
+              class="nav-item-mob"
+              href="http://www.robportoblog.com/"
+              target="_blank"
+              >Blog</a
+            >
             <a class="nav-item-mob" href="/resume.pdf" target="_blank"
               >Resume</a
             >
             <router-link class="nav-item-mob" to="#work">Work</router-link>
             <router-link class="nav-item-mob" to="#tech">Tech</router-link>
-            <router-link class="nav-item-mob" to="#about">About Me</router-link>
+            <!-- <router-link class="nav-item-mob" to="#about">About Me</router-link> -->
             <router-link class="nav-item-mob" to="#contact"
               >Contact Me</router-link
             >

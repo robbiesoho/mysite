@@ -16,10 +16,10 @@
           <div class="main-detail">Educator</div>
           <div class="main-detail">Artist</div>
         </div>
-        <div id="main-quote">
+        <!-- <div id="main-quote">
           “Taking a new step, uttering a new word, is what people fear most.” ―
           Fyodor Dostoevsky
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

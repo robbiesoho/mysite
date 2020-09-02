@@ -5,7 +5,7 @@
     <Head></Head>
     <Work></Work>
     <Tech></Tech>
-    <About></About>
+    <!-- <About></About> -->
     <Contact></Contact>
     <Media></Media>
     <Footer></Footer>
@@ -19,7 +19,7 @@ import Head from "@/components/Head";
 import Work from "@/components/Work";
 import Tech from "@/components/Tech";
 import Media from "@/components/Media";
-import About from "@/components/About";
+// import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -32,7 +32,7 @@ export default {
     Work: Work,
     Tech: Tech,
     Media: Media,
-    About: About,
+    // About: About,
     Contact: Contact,
     // eslint-disable-next-line
     Footer: Footer,
