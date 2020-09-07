@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div id="work">
-      <h1>Work</h1>
+      <h1>Work Examples</h1>
       <ul class="work-cards">
         <li v-for="(project, id) in projects" :key="id">
           <div class="work-card">

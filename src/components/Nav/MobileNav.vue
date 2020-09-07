@@ -16,7 +16,7 @@
               >Resume</a
             >
             <router-link class="nav-item-mob" to="#work">Work</router-link>
-            <router-link class="nav-item-mob" to="#tech">Tech</router-link>
+            <!-- <router-link class="nav-item-mob" to="#tech">Tech</router-link> -->
             <!-- <router-link class="nav-item-mob" to="#about">About Me</router-link> -->
             <router-link class="nav-item-mob" to="#contact"
               >Contact Me</router-link

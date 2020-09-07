@@ -4,7 +4,7 @@
     <DeskNav v-if="!isMobile()"></DeskNav>
     <Head></Head>
     <Work></Work>
-    <Tech></Tech>
+    <!-- <Tech></Tech> -->
     <!-- <About></About> -->
     <Contact></Contact>
     <Media></Media>
@@ -17,7 +17,7 @@ import MobileNav from "@/components/Nav/MobileNav";
 import DeskNav from "@/components/Nav/DeskNav";
 import Head from "@/components/Head";
 import Work from "@/components/Work";
-import Tech from "@/components/Tech";
+// import Tech from "@/components/Tech";
 import Media from "@/components/Media";
 // import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -30,7 +30,7 @@ export default {
     DeskNav: DeskNav,
     Head: Head,
     Work: Work,
-    Tech: Tech,
+    // Tech: Tech,
     Media: Media,
     // About: About,
     Contact: Contact,
