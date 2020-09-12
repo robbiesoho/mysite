@@ -14,7 +14,11 @@
             Web Developer
           </div>
           <div class="main-detail">Educator</div>
-          <div class="main-detail">Artist</div>
+          <a
+            href="https://www.youtube.com/watch?v=eAgjnzKex6s"
+            class="main-detail"
+            >Artist</a
+          >
         </div>
         <!-- <div id="main-quote">
           “Taking a new step, uttering a new word, is what people fear most.” ―
@@ -76,6 +80,8 @@ export default {};
   margin-left: 2.5vw;
   padding: 15px;
   grid-area: details;
+  color: black;
+  text-decoration: none;
 }
 .main-detail:before {
   content: "✓";
