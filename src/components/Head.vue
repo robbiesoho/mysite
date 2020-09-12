@@ -9,10 +9,10 @@
       <div id="landing-words">
         <h1 id="main-name">Robert J Porto</h1>
         <div id="main-details">
-          <div class="main-detail">
+          <a href="https://github.com/robbiesoho" class="main-detail">
             Full Stack <br />
             Web Developer
-          </div>
+          </a>
           <div class="main-detail">Educator</div>
           <a
             href="https://www.youtube.com/watch?v=eAgjnzKex6s"
@@ -20,10 +20,6 @@
             >Artist</a
           >
         </div>
-        <!-- <div id="main-quote">
-          “Taking a new step, uttering a new word, is what people fear most.” ―
-          Fyodor Dostoevsky
-        </div> -->
       </div>
     </div>
   </div>
@@ -86,12 +82,8 @@ export default {};
 .main-detail:before {
   content: "✓";
 }
-
-#main-quote {
-  margin-top: 8%;
-  padding: 0 10px 10px 40px;
-  font-size: 1.25em;
-  grid-area: quote;
+a:hover {
+  text-decoration: underline;
 }
 
 .background-img-container {
