@@ -2,9 +2,9 @@
   <div class="container">
     <div id="footer">
       <p>2020 RP | DEV</p>
-      <a id="foot-link" href="https://github.com/robbiesoho/mysite"
+      <!-- <a id="foot-link" href="https://github.com/robbiesoho/mysite"
         >See the code for this site</a
-      >
+      > -->
     </div>
   </div>
 </template>

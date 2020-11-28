@@ -15,7 +15,7 @@
             <a class="nav-item-mob" href="/resume.pdf" target="_blank"
               >Resume</a
             >
-            <router-link class="nav-item-mob" to="#work">Work</router-link>
+            <!-- <router-link class="nav-item-mob" to="#work">Work</router-link> -->
             <!-- <router-link class="nav-item-mob" to="#tech">Tech</router-link> -->
             <!-- <router-link class="nav-item-mob" to="#about">About Me</router-link> -->
             <router-link class="nav-item-mob" to="#contact"

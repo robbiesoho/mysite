@@ -10,14 +10,14 @@
         <h1 id="main-name">Robert J Porto</h1>
         <div id="main-details">
           <a href="https://github.com/robbiesoho" class="main-detail">
-            Full Stack <br />
-            Web Developer
+            Full Stack Developer<br />
           </a>
           <div class="main-detail">Educator</div>
           <a
             href="https://www.youtube.com/watch?v=eAgjnzKex6s"
             class="main-detail"
-            >Artist</a
+          >
+            Musician</a
           >
         </div>
       </div>
@@ -104,7 +104,7 @@ a:hover {
     justify-content: space-between;
   }
   .avatar {
-    width: 350px;
+    width: 325px;
     margin: 2% 10%;
     position: relative;
     order: 2;
