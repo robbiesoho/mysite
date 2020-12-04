@@ -9,10 +9,19 @@
       <div id="landing-words">
         <h1 id="main-name">Robert J Porto</h1>
         <div id="main-details">
-          <a href="https://github.com/robbiesoho" class="main-detail">
-            Full Stack Developer<br />
+          <a
+            href="https://github.com/robbiesoho"
+            class="main-detail"
+            id="job-title"
+          >
+            Full Stack Dev<br />
           </a>
-          <div class="main-detail">Educator</div>
+          <a
+            href="https://www.elsoldetlaxcala.com.mx/local/fortalece-la-utt-ensenanza-del-ingles-con-voluntarios-de-peace-corps-3874513.html?fbclid=IwAR17yvFg61C6NxWAoAn_pqCFxrtl9Yo_w0Ep31gSEutPUnYpectW90NP-Co"
+            class="main-detail"
+          >
+            Educator<br />
+          </a>
           <a
             href="https://www.youtube.com/watch?v=eAgjnzKex6s"
             class="main-detail"
@@ -40,6 +49,9 @@ export default {};
 
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .avatar {
   position: absolute;
@@ -50,7 +62,7 @@ export default {};
   max-width: 250px;
   height: auto;
   border-radius: 70%;
-  border: 1px solid black;
+  border: 1.5px solid black;
   object-fit: cover;
   object-position: 50% 50%;
   grid-area: avatar;
@@ -64,7 +76,7 @@ export default {};
 
 #main-name {
   margin-top: 0;
-
+  font-weight: 700;
   font-size: 3em;
   margin-left: 3vw;
   padding-bottom: 10px;
@@ -78,6 +90,7 @@ export default {};
   grid-area: details;
   color: black;
   text-decoration: none;
+  font-weight: 800;
 }
 .main-detail:before {
   content: "✓";
@@ -104,7 +117,7 @@ a:hover {
     justify-content: space-between;
   }
   .avatar {
-    width: 325px;
+    width: 350px;
     margin: 2% 10%;
     position: relative;
     order: 2;
@@ -127,11 +140,6 @@ a:hover {
   .main-detail {
     padding: 10px;
     font-size: 2em;
-  }
-
-  #main-quote {
-    margin-top: 25px;
-    font-size: 1.25em;
   }
 }
 </style>
