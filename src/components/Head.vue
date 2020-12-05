@@ -97,6 +97,7 @@ export default {};
 }
 a:hover {
   text-decoration: underline;
+  font-size: 2.1rem;
 }
 
 .background-img-container {
