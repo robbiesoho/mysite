@@ -51,6 +51,11 @@ export default {
           image: "twitter.png",
           url: "https://twitter.com/RPDev10",
         },
+        {
+          name: "instagram",
+          image: "instagram.png",
+          url: "https://www.instagram.com/robfoodeat/",
+        },
       ],
     };
   },
