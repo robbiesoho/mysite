@@ -8,13 +8,11 @@
           <ul id="navbar-menu">
             <a
               class="nav-item-mob"
-              href="http://www.robportoblog.com/"
+              href="http://www.robporto.dev"
               target="_blank"
               >Blog</a
             >
-            <a class="nav-item-mob" href="/resume.pdf" target="_blank"
-              >Resume</a
-            >
+            <a class="nav-item-mob" href="/rp.png" target="_blank">Resume</a>
             <!-- <router-link class="nav-item-mob" to="#work">Work</router-link> -->
             <!-- <router-link class="nav-item-mob" to="#tech">Tech</router-link> -->
             <!-- <router-link class="nav-item-mob" to="#about">About Me</router-link> -->
